@@ -1,6 +1,23 @@
-name: RainbowNick
-version: '1.0'
-main: me.distyhoangnam.rainbowNick.RainbowNick
-api-version: '1.21'
-authors: [ DistyHoangNam ]
-description: Rainbow - GrassMine
+name: RainbowNickname
+version: 2.1
+main: com.Lino.rainbowNickname.RainbowNickname
+api-version: 1.21
+author: Lino
+softdepend: [LuckPerms, PlaceholderAPI]
+
+commands:
+  rainbownick:
+    description: Comando principale
+    aliases: [rn, rainbow]
+    usage: /rn <toggle|reload>
+
+permissions:
+  rainbownick.use:
+    description: Attiva il nick arcobaleno automaticamente all'entrata
+    default: op
+  rainbownick.admin:
+    description: Permesso completo
+    default: op
+  rainbownick.command.toggle:
+    description: Permesso per usare il comando toggle
+    default: op
