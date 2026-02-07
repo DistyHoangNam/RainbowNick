@@ -1,0 +1,6 @@
+name: RainbowNick
+version: '1.0'
+main: me.distyhoangnam.rainbowNick.RainbowNick
+api-version: '1.21'
+authors: [ DistyHoangNam ]
+description: Rainbow - GrassMine
